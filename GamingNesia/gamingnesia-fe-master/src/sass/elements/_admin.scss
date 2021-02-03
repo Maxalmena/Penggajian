@@ -1,0 +1,76 @@
+.faq-category-list {
+    th {
+        &.language {
+            &.vk-table-column {
+                text-align: center 
+            }
+        }
+    }
+    .language-icon {
+        text-align: center
+    }
+}
+
+.ck-content { 
+    height:500px; 
+}
+.merchant-location-list {
+    td {
+        vertical-align: middle !important;
+        .html-render{
+            p {
+                margin: 0
+            }
+        }
+    }
+}
+
+.promo-table-image-preview {
+    height: 50px; 
+    max-width: none;
+}
+
+.editor-image-preview {
+    height: 200px;
+}
+
+.tips-editor {
+    .uk-tab {
+        li:nth-child(2) {
+            display: none;
+        }
+    }
+}
+
+.autocomplete-list
+{
+    padding: 0 .6rem .1rem .6rem;
+    &:hover {
+        background: linear-gradient(to left, #28a5f5, #1e87f0);
+        color: white;
+    }
+}
+
+.product-image-preview {
+    height: 25px;
+}
+
+.ql-editor {
+    table {
+        border-collapse: collapse;
+
+        &, th, td {
+            border: 1px solid black;
+        }
+    }
+}
+
+.sidebar-child-wrapper {
+    padding-left: 5px;
+    padding-top: 15px;
+    
+    .sidebar-child {
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+}

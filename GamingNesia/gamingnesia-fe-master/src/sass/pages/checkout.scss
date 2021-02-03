@@ -1,0 +1,87 @@
+.checkout-wrapper {
+  width: 65.575%;
+
+  .checkout {
+    background-color: #f5f6ff;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.16);
+  
+    .checkout-total {
+      .label, .guide {
+        font-family: $sf-pro;
+      }
+  
+      .label {
+        color: #444444;
+      }
+  
+      .guide {
+        color: #c70226;
+      }
+  
+      .nominal {
+        font-family: $sf-mono;
+      }
+    }
+
+    .method {
+      font-family: $sf-pro;
+
+      .option{
+        color: #444444;
+        line-height: 1.56;
+
+        .con-vs-radio {
+          width: fit-content;
+          align-items: start;
+
+          .vs-radio {
+            width: 1.25rem;
+            height: 1.25rem;
+
+            .vs-radio--circle{
+              background: #ebeeff !important;
+              border: .3rem solid #3f51b5;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.upload-modal .vs-popup {
+  width: fit-content !important;
+
+  .vs-popup--header {
+    background-color: #fff;
+
+    h3 {
+      padding-left: 3.125rem;
+      padding-top: 2.5rem;
+      font-weight: bold;
+    }
+  }
+
+  .vs-popup--content {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+    .upload-field, .img-preview-wrapper, .btn-upload {
+      margin-left: 3.125rem;
+      margin-right: 3.125rem;
+      margin-bottom: 2.625rem;
+    }
+
+    .post-upload {
+      padding: 4.5rem 3rem;
+      font-family: $sf-pro;
+      color: #444444;
+
+      p {
+        width: 22.25rem;
+        text-align: center;
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+// auth.js
+export const LOGOUT = 'LOGOUT'
+export const SAVE_TOKEN = 'SAVE_TOKEN'
+export const FETCH_USER = 'FETCH_USER'
+export const FETCH_USER_SUCCESS = 'FETCH_USER_SUCCESS'
+export const FETCH_USER_FAILURE = 'FETCH_USER_FAILURE'
+export const UPDATE_USER = 'UPDATE_USER'
+
+// lang.js
+export const SET_LOCALE = 'SET_LOCALE'
+
+// product.js
+export const FETCH_PRODUCT = 'FETCH_PRODUCT'
+export const FETCH_PRODUCT_LIST = 'FETCH_PRODUCT_LIST'
+
+// game.js
+export const FETCH_GAME = 'FETCH_GAME'
+export const FETCH_GAME_LIST = 'FETCH_GAME_LIST'
+
+// cart.js
+export const FETCH_CART = 'FETCH_CART'
+export const ADD_CART_ITEM = 'ADD_CART_ITEM'
+export const REMOVE_CART_ITEM = 'REMOVE_CART_ITEM'
+export const SET_CART_PRODUCTS = 'SET_CART_PRODUCTS'
+export const UPDATE_CART_PRODUCT = 'UPDATE_CART_PRODUCT'
+
+// member.js
+export const FETCH_MEMBER = 'FETCH_MEMBER'
+export const FETCH_MEMBER_LIST = 'FETCH_MEMBER_LIST'
+
+// transactions.js
+export const FETCH_BUYER_TRANSACTION_LIST = 'FETCH_BUYER_TRANSACTION_LIST'
+export const FETCH_SELLER_TRANSACTION_LIST = 'FETCH_SELLER_TRANSACTION_LIST'
+export const UPDATE_TRANSACTION_STATUS = 'UPDATE_TRANSACTION_STATUS'
+export const FETCH_TRANSACTION_LIST = 'FETCH_TRANSACTION_LIST'
+
+// payment-options.js
+export const FETCH_PAYMENT_OPTIONS = 'FETCH_PAYMENT_OPTIONS'

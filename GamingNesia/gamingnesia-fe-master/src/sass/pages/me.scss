@@ -1,0 +1,59 @@
+.history-wrapper {
+  width: 65.575%;
+
+  .history {
+    font-family: $sf-pro;
+    background-color: #f5f6ff;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.16);
+
+    .history-scroll {
+      width: auto;
+      max-height: 24rem;
+      overflow-y: scroll;
+      overflow-x: visible;
+      box-sizing: content-box;
+      padding-right: .25rem;
+    }
+  }
+}
+
+.me {
+  width: 31.385%;
+
+  .profile-info {
+    border-radius: 8px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.16);
+    font-family: $sf-pro;
+    color: #444444;
+  }
+}
+
+.profile-modal {
+  .vs-popup {
+    width: auto;
+
+    .vs-popup--header {
+      background-color: #fff;
+  
+      h3 {
+        padding-left: 1.875rem;
+        padding-top: 2.5rem;
+        font-weight: bold;
+      }
+    }
+
+    .vs-popup--content {
+      margin: 0 !important;
+      padding: 0;
+      width: 100%;
+
+      .profile-form {
+        padding: 3rem 1.875rem;
+
+        .vs-input {
+          width: 21.875rem;
+        }
+      }
+    }
+  }
+}

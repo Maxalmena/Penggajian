@@ -1,0 +1,47 @@
+Logika Simpanan
+Simpanan Pokok
+Bulan
+potongan.Simpanan_pokok = Simpanan.total_simpanan_pokok
+total_simpanan_pokok = 
+
+Simpanan Wajib 25k
+Bulan
+potongan.simpanan_wajib simpanan.total_simpanan_wajib
+total_simpanan_wajib = 
+
+Simpanan Sukarela
+Bulan
+Isi Sendiri
+total_simpanan_sukarela = 
+
+Simpanan berencana
+Bulan
+potongan.simpanan_berencana = simpanan.total_simpanan_berencana
+total_simpanan_berencana = 
+
+Variable Simpanan
+Nama
+No Anggota
+Nama
+Tanggal
+Saldo
+Jenis Simpanan
+Nominal
+
+Ambil Simpanan
+No Anggota
+Nama
+Tanggal
+Saldo
+Nominal
+
+Pinjaman
+No Anggota
+Nama Anggota
+Nominal Pinjaman (rp)
+Jangka Waktu (bulan)
+Bunga (%) (per bulan)
+Total Bunga (rp)
+
+Tabel Rincian Pembayaran Pinjaman
+Bulan | Pembayaran Bunga | Pembayaran Pokok | Total Bayar

@@ -1,0 +1,72 @@
+@import 'variables';
+@import '~sweetalert2/src/sweetalert2';
+
+@import 'elements/card';
+@import 'elements/navbar';
+@import 'elements/buttons';
+@import 'elements/transitions';
+@import 'elements/form';
+@import 'elements/layout';
+@import 'elements/sidebar';
+@import 'elements/admin';
+@import 'elements/game-card';
+@import 'elements/product-card';
+@import 'elements/shopping-detail';
+@import 'elements/upload-field';
+@import 'elements/input';
+@import 'elements/transaction-card';
+
+@import '../../node_modules/vuesax/dist/vuesax.css';
+@import '../../node_modules/material-icons/iconfont/material-icons.css';
+
+@import 'pages/default';
+@import 'pages/home';
+@import 'pages/game-detail';
+@import 'pages/cart';
+@import 'pages/checkout';
+@import 'pages/admin-login';
+@import 'pages/me';
+@import 'pages/cms';
+@import 'pages/catalog';
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+html {
+  font-size: 16px;
+  font-family: 'Open Sans', -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif !important;
+  box-sizing: border-box !important;
+
+  button:focus {
+    outline: 0 !important;
+  }
+
+  input {
+    font-family: $sf-pro;
+  }
+
+  .page-section {
+    margin: 0 auto;
+    width: 79%;
+
+    .page-title {
+      font-family: $sf-pro;
+      color: #444444;
+    }
+
+    .link {
+      color: #3f51b5;
+    }
+
+    .link-alt {
+      color: #e04200;
+    }
+
+    .link-alt2 {
+      color: #00a36c;
+    }
+
+    .link-alert {
+      color: #e62348;
+    }
+  }
+}

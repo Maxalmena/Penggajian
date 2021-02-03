@@ -1,0 +1,32 @@
+.navbar {
+  position: fixed;
+  z-index: 9;
+  background: white;
+  width: 100%;
+  padding-left: 10.5%;
+  padding-right: 10.5%;
+  top: 0;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.16);
+
+  @media screen and (max-width: 1024px) {
+    padding-left: .5rem;
+    padding-right: .5rem;
+  }
+
+  .btn-login {
+    height: 3rem;
+  }
+
+  .badge {
+    position: absolute;
+    background-color: #cc3c00;
+    color: #cc3c00;
+    border-radius: 50%;
+    top: 33%;
+    right: -95%;
+    padding: .175rem .25rem;
+    font-size: .25rem;
+    border: 1px solid white;
+    line-height: .8;
+  }
+}

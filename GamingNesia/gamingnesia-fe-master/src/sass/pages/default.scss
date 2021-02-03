@@ -1,0 +1,42 @@
+.auth-modal {
+  .vs-popup {
+    border-radius: .5rem;
+    width: 25.625rem;
+    max-height: 100%;
+
+    .vs-popup--title {
+      display: none;
+    }
+  
+    .vs-popup--content {
+      padding: 0;
+      margin: 0;
+      max-height: calc(100vh - 10px);
+    }
+
+    .auth-modal--body {
+      padding: 2.5rem 1.875rem;
+    }
+
+    .auth-modal--form {
+      position: relative;
+      
+      .vs-input span{
+        position: absolute;
+        width: 100%;
+        
+        .span-text-validation {
+          padding: 0;
+
+          &::first-letter {
+            text-transform: capitalize;
+          }
+        }
+      }
+
+      .auth-btn {
+        width: 100%;
+      }
+    }
+  }
+}

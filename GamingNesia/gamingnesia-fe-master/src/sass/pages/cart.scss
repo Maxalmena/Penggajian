@@ -1,0 +1,42 @@
+.cart-item {
+  width: 65.575%;
+
+  .product-card {
+    height: 225px;
+
+    .cart-fillable {
+      margin-left: 26%;
+
+      img {
+        position: relative;
+        width: 32px;
+        height: 32px;
+        transform: translateY(100%);
+        border-radius: 50%;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.24);
+      }
+      
+      .extra-field {
+        width: 64.65%;
+        max-width: 357px;
+      }
+
+      .qty {
+        width: 3.625rem;
+
+        .vs-input--label{
+          opacity: 0;
+        }
+
+        input {
+          text-align: center;
+          opacity: 1 !important;
+        }
+      }
+
+      .vs-input {
+        height: 3rem;
+      }
+    }
+  }
+}

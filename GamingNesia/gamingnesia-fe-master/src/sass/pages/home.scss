@@ -1,0 +1,70 @@
+.home-page {
+  padding: 1rem 8.5rem;
+
+  @media screen and (max-width: 1023px) {
+    padding: 1rem 2rem;
+  }
+
+  .VueCarousel {
+
+    .VueCarousel-wrapper {
+      border-radius: .5rem;
+      box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.24);
+    }
+
+    .VueCarousel-slide {
+      img {
+        margin: 0;
+        width: 100%;
+        height: 320px;
+        object-fit: cover;
+      }
+    }
+
+    .VueCarousel-navigation {
+      button {
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 50%;
+        box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.24);
+        background-color: #ffffff;
+      }
+
+      .VueCarousel-navigation-next {
+        margin-right: 2.25rem !important;
+      }
+
+      .VueCarousel-navigation-prev {
+        margin-left: 2.25rem !important;
+      }
+
+      .VueCarousel-navigation--disabled {
+        display: none;
+      }
+    }
+
+    .VueCarousel-pagination {
+      display: flex !important;
+      justify-content: flex-end !important;
+
+      .VueCarousel-dot-container {
+        margin-right: 2.5rem;
+
+        button {
+          background-clip: initial;
+          padding: 1px !important;
+          margin: .25rem;
+          box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.24);
+        }
+
+        .VueCarousel-dot {
+          border: 1px solid #979797;
+        }
+
+        .VueCarousel-dot--active {
+          border: none;
+        }
+      }
+    }
+  }
+}

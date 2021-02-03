@@ -1,0 +1,34 @@
+.shopping-detail {
+  margin-top: 3rem;
+  width: 31.385%;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.16);
+  height: 0%;
+
+  .shopping-detail-label {
+    font-family: $sf-pro;
+    color: #444444;
+
+    .flavor-text {
+      color: #888888;
+    }
+  }
+
+  .product-price {
+    color: #444444;
+  }
+
+  .nominal {
+    font-family: $sf-mono;
+  }
+
+  .promo-value {
+    color: #ff5f1d;
+    position: relative;
+
+    &:before {
+      content: '-';
+      position: absolute;
+      transform: translateX(-100%);
+    }
+  }
+}

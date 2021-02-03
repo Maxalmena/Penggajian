@@ -1,0 +1,48 @@
+.product-modal {
+  .vs-popup {
+    width: auto;
+
+    .vs-popup--header {
+      background-color: #fff;
+  
+      h3 {
+        padding-left: 3.125rem;
+        padding-top: 2.5rem;
+        font-weight: bold;
+      }
+    }
+
+    .vs-popup--content {
+      margin: 0 !important;
+      padding: 0;
+      width: 100%;
+  
+      .product-form {
+        padding: 2.5rem 3.125rem 2rem 3.125rem;
+
+        .upload-field {
+          width: 22.25rem;
+        }
+  
+        .upload-guide {
+          font-family: $sf-pro;
+          color: #888888;
+        }
+
+        .percent-input .vs-con-input{
+          input {
+            width: 44.5%;
+          }
+
+          &:after {
+            position: absolute;
+            left: calc(44.5% + .5rem);
+            content: '%';
+            font-size: 1rem;
+            color: #444444;
+          }
+        }
+      }
+    }
+  }
+}

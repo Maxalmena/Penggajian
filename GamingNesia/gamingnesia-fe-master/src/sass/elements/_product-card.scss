@@ -1,0 +1,36 @@
+.product-card {
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.16);
+  background-color: #fff;
+
+  img {
+    width: 162px;
+    height: 115px;
+    object-fit: cover;
+  }
+
+  .product-name {
+    font-family: $sf-pro;
+  }
+
+  .pre-disc {
+    color: #aaaaaa;
+  }
+
+  .promo-flair {
+    font-family: $sf-pro;
+    background: #ff5f1d;
+    border-radius: 0 .25rem .25rem;
+    padding-right: .375rem;
+    margin-left: -1.675rem;
+    line-height: 1.2;
+  }
+
+  .btn-buy {
+    width: 6.625rem;
+    height: 3.5rem;
+  }
+}
+
+.product-price {
+  font-family: $sf-mono;
+}

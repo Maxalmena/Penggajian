@@ -1,0 +1,28 @@
+.game-card {
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.16);
+  width: 16.25rem;
+  height: 20.625rem;
+
+  img {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 16.25rem;
+    height: 20.625rem;
+  }
+
+  .card-info {
+    height: auto;
+    width: 15.25rem;
+    backdrop-filter: blur(50px);
+    background-color: rgba(0, 0, 0, .16);
+    padding: 1.1625rem 1rem;
+
+    span {
+      font-family: $sf-mono;
+    }
+  }
+}

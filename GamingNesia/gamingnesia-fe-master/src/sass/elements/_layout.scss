@@ -1,0 +1,15 @@
+.main {
+  &.uk-container {
+    background: #fff;
+  }
+  .main-content {
+    padding-top: 40px;
+  }
+  .main-content-with-sidebar {
+    padding-left: 30%;
+
+    @media (max-width: 959px) {
+      padding-left: 30px;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+.transaction-wrapper.history-wrapper {
+  width: 100%;
+  margin-bottom: 3.2rem;
+    
+  .actions {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    
+    margin-top: 1.34rem;
+    margin-right: 0.2rem;
+    margin-bottom: 0.32rem;
+  }
+
+  .btn-buy {
+    width: 10.625rem;
+    height: 3.56rem;
+  }
+
+  .transaction-card {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    &-left {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &-right {
+      margin-right: 1rem;
+    }
+  }
+}
+
+.transaction-wrapper-status {
+  display: flex;
+  justify-content: space-between;
+
+  .status-right {
+    display: flex;
+
+    p {
+      margin-left: 1.5rem;
+    }
+  }
+}

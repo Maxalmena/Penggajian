@@ -1,0 +1,24 @@
+<?php include "Header.php" ?>
+<div class="container">
+
+	<?php
+	$view = isset($_GET['view'])  ? $_GET['view'] : null;
+
+	switch ($view) {
+		default:
+			# code...
+			break;
+
+		case 'tambah':
+			# code...
+			break;
+		
+		case 'edit':
+			# code...
+			break;
+	}
+
+	?>
+
+</div>
+<?php include "Footer.php" ?>

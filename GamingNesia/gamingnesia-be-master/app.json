@@ -1,0 +1,6 @@
+{
+  "name": "gamingnesia-be",
+  "description": "Gamingnesia Back-end",
+  "image": "heroku/java",
+  "addons": [ "heroku-postgresql" ]
+}

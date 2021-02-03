@@ -1,0 +1,16 @@
+.card {
+  // box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+// Style card inside tabs
+.tabs-content {
+  .card-header {
+    hr {
+      display: none;
+    }
+
+    h3 {
+      font-size: 18px;
+    }
+  }
+}
